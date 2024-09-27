@@ -1,0 +1,69 @@
+2024-09-14 17:46:35,425 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 17:47:47,877 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 17:51:04,988 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 17:59:23,559 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 22:40:25,600 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 22:51:12,983 - INFO - Table 'WeatherData' verified or created successfully.
+2024-09-14 22:51:36,176 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 22:56:09,741 - INFO - Table 'WeatherData' verified or created successfully.
+2024-09-14 22:56:09,741 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 22:56:09,741 - INFO - Database connection closed.
+2024-09-14 22:58:38,400 - INFO - Table 'WeatherData' verified or created successfully.
+2024-09-14 22:58:38,568 - INFO - Table 'WeatherData' verified or created successfully.
+2024-09-14 22:58:38,568 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 22:58:38,570 - INFO - Database connection closed.
+2024-09-14 23:00:41,989 - INFO - Connected to the database successfully.
+2024-09-14 23:00:42,005 - INFO - Table 'WeatherData' verified or created successfully.
+2024-09-14 23:00:42,005 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 23:00:42,006 - INFO - Database connection closed.
+2024-09-14 23:02:30,112 - INFO - Connected to the database successfully.
+2024-09-14 23:02:30,128 - INFO - Table 'WeatherData' verified or created successfully.
+2024-09-14 23:02:30,128 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-14 23:02:30,128 - INFO - Database connection closed.
+2024-09-14 23:19:17,447 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-27 00:27:39,901 - INFO - CSV file loaded successfully.
+2024-09-27 00:27:39,901 - INFO - Data preprocessed successfully.
+2024-09-27 00:27:39,979 - INFO - Checked if WeatherData table exists.
+2024-09-27 00:27:41,359 - INFO - Inserted 8784 rows into WeatherData table.
+2024-09-27 00:32:40,477 - INFO - CSV file loaded successfully.
+2024-09-27 00:32:40,477 - INFO - Data preprocessed successfully.
+2024-09-27 00:32:40,539 - INFO - Checked if WeatherData table exists.
+2024-09-27 00:32:42,247 - INFO - Inserted 8784 rows into WeatherData table.
+2024-09-27 00:34:03,010 - INFO - CSV file loaded successfully.
+2024-09-27 00:34:03,010 - INFO - Data preprocessed successfully.
+2024-09-27 00:34:03,073 - INFO - Checked if WeatherData table exists.
+2024-09-27 00:34:04,417 - INFO - Inserted 8784 rows into WeatherData table.
+2024-09-27 12:10:27,015 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-27 12:11:34,200 - ERROR - The file at C:\Users\Imthias\Downloads\archive\weather_data.csv does not exist.
+2024-09-27 12:16:01,966 - INFO - Original DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:16:01,966 - INFO - Updated DataFrame columns: ['DateTime', 'Temp_C', 'DewPointTemp_C', 'RelHum_Percent', 'WindSpeed_km_h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:16:07,530 - INFO - Data inserted successfully
+2024-09-27 12:18:43,275 - ERROR - An unexpected error occurred: Missing column provided to 'parse_dates': 'DateTime'
+2024-09-27 12:19:51,391 - INFO - Original DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:19:51,391 - INFO - Updated DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:19:51,391 - ERROR - Key error: "'DateTime' column not found in the CSV file."
+2024-09-27 12:21:17,433 - INFO - Original DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:21:17,433 - INFO - Updated DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:21:17,433 - INFO - Renamed DataFrame columns: ['DateTime', 'Temp_C', 'DewPointTemp_C', 'RelHum_Percent', 'WindSpeed_km_h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:21:24,120 - INFO - Data inserted successfully
+2024-09-27 12:28:51,460 - INFO - Number of rows in WeatherData: 193248
+2024-09-27 12:28:51,460 - INFO - Count of null DateTime: 0
+2024-09-27 12:28:51,461 - INFO - Average Temperature: 8.80
+2024-09-27 12:34:46,433 - ERROR - An unexpected error occurred: Missing column provided to 'parse_dates': 'DateTime'
+2024-09-27 12:34:47,274 - INFO - Original DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:34:47,274 - INFO - Updated DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:34:47,274 - ERROR - Key error: "'DateTime' column not found in the CSV file."
+2024-09-27 12:34:48,499 - INFO - Original DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:34:48,499 - INFO - Updated DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:34:48,499 - INFO - Renamed DataFrame columns: ['DateTime', 'Temp_C', 'DewPointTemp_C', 'RelHum_Percent', 'WindSpeed_km_h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:34:51,890 - INFO - Data inserted successfully
+2024-09-27 12:34:52,011 - INFO - Number of rows in WeatherData: 202032
+2024-09-27 12:34:52,011 - INFO - Count of null DateTime: 0
+2024-09-27 12:34:52,011 - INFO - Average Temperature: 8.80
+2024-09-27 12:55:53,863 - INFO - Original DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:55:53,864 - INFO - Updated DataFrame columns: ['Date/Time', 'Temp_C', 'Dew Point Temp_C', 'Rel Hum_%', 'Wind Speed_km/h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:55:53,864 - INFO - Renamed DataFrame columns: ['DateTime', 'Temp_C', 'DewPointTemp_C', 'RelHum_Percent', 'WindSpeed_km_h', 'Visibility_km', 'Press_kPa', 'Weather']
+2024-09-27 12:55:56,697 - INFO - Data inserted successfully
+2024-09-27 12:55:56,956 - INFO - Number of rows in WeatherData: 210816
+2024-09-27 12:55:56,956 - INFO - Count of null DateTime: 0
+2024-09-27 12:55:56,956 - INFO - Average Temperature: 8.80

@@ -1,0 +1,6 @@
+2024-09-27 12:43:58,254 - INFO - Number of rows in WeatherData: 202032
+2024-09-27 12:43:58,269 - INFO - Count of null DateTime: 0
+2024-09-27 12:43:58,332 - INFO - Average Temperature: 8.80
+2024-09-27 12:54:49,703 - INFO - Number of rows in WeatherData: 202032
+2024-09-27 12:54:49,735 - INFO - Count of null DateTime: 0
+2024-09-27 12:54:49,782 - INFO - Average Temperature: 8.80
