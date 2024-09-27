@@ -1,0 +1,62 @@
+Overview
+This project processes and validates weather data. The main script, kunskappython, takes data from a CSV file and saves it into a SQL Server database called WeatherDB. To ensure everything works correctly, there’s a test script called testpython that checks the main script’s functions and the data quality. The project also uses logging to keep track of both the data processing and testing activities.
+
+Installation
+Ensure you have Python 3.x installed on your system.
+Install the necessary Python packages using pip:
+bash
+Copy code
+pip install pyodbc pandas
+Make sure to have SQL Server installed and accessible. Create a database named WeatherDB.
+Usage
+Place the CSV file containing weather data in the specified directory (e.g., C:\Users\Imthias\Downloads\archive\weather_data.csv).
+Run the main script to process the data:
+bash
+Copy code
+python kunskappython.py
+Run the test script to validate the functionality:
+bash
+Copy code
+python testpython.py
+Scripts
+Main Script: kunskappython.py
+Purpose: insert weather data from a CSV file into the WeatherDB database, validates the data, and logs the process.
+Functionality:
+Loads data from the specified CSV file.
+Renames columns for consistency.
+Checks for the existence of the WeatherData table and creates it if necessary.
+Inserts data into the database.
+Logs errors and successful operations.
+Test Script: testpython.py
+Purpose: Validates the functionality of the main script and checks the integrity of the data in the database.
+Functionality:
+Connects to the WeatherDB database.
+Checks the number of records in the WeatherData table.
+Validates the presence of DateTime values.
+Computes the average temperature from the data.
+Logs the results and any errors encountered.
+Log Files
+Process Log: process.log
+
+Logs the outcomes of the data processing, including errors and successful data loads.
+Test Log: test.log
+
+Logs the results of the validation tests, including the number of records, null checks, and average temperature.
+Database Schema
+The WeatherDB database contains the following table:
+
+Table: WeatherData
+Column Name	Data Type
+DateTime	DATETIME
+Temp_C	FLOAT
+DewPointTemp_C	FLOAT
+RelHum_Percent	FLOAT
+WindSpeed_km_h	FLOAT
+Visibility_km	FLOAT
+Press_kPa	FLOAT
+Weather	VARCHAR
+Task Scheduler
+Windows
+Open Task Scheduler.
+Create a Basic Task named Run KunskapPython Script.
+Set the trigger and action to run kunskappython.py using your Python interpreter.
